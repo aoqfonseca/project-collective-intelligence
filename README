@@ -1,0 +1,27 @@
+#to create local repository
+mkdir ~/project-collective-intelligence
+cd ~/project-collective-intelligence
+
+#install virtualenv
+    #ubuntu install
+    sudo apt-get install easy_install
+    sudo easy_install virtualenv
+
+#create virtualenv
+    virtualenv --no-site-packages --unzip-setuptools .
+    source ./bin/activate
+    easy_install -U pip
+    pip ipython
+
+#todo colocar as demais bibliotecas para rss e beautifulsoap. Pygraph
+
+#Get last version from github
+    git clone git@github.com:[YOUR NAME]/project-collective-intelligence.git
+    cd src
+
+
+
+
+
+
+
